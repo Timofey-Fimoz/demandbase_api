@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vulnerable Client</title>
+</head>
+<body>
+    <h1>Client Application</h1>
+    <p>This page fetches data from a third-party API.</p>
+    <div id="data-container"></div>
+
+    <script>
+        // This is the legitimate callback function
+        function handleData(data) {
+            console.log("Received data:", data);
+            const container = document.getElementById('data-container');
+            container.innerHTML = `<strong>Company:</strong> ${data.registry_company_name}`;
+        }
+
+        // The application dynamically creates a script tag to make the JSONP request.
+        // This is the standard way JSONP works.
+        const apiKey = 'e8HsHe2REToFLgjY30NcldJ8SFTTEKtFUc7HrGXc';
+        const script = document.createElement('script');
+        
+        // Check if a malicious payload is present in the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const maliciousCallback = urlParams.get('malicious_callback');
+
+        if (maliciousCallback) {
+            // In a real attack, the attacker would trick the user into clicking a crafted URL.
+            // This part of the script simulates the browser calling that malicious URL.
+            script.src = `http://localhost:8080/api/v3/ip.json?key=${apiKey}&callback=${maliciousCallback}`;
+        } else {
+            // This is the normal, non-malicious request
+            script.src = `http://localhost:8080/api/v3/ip.json?key=${apiKey}&callback=handleData`;
+        }
+        
+        document.head.appendChild(script);
+    </script>
+</body>
+</html>
